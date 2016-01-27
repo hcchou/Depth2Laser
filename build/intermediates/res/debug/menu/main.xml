@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+		android:id="@+id/menu_options"
+		android:showAsAction="ifRoom"
+		android:title="Options"
+		>
+		<menu>
+			<group android:id="@+id/menu_options_group" android:checkableBehavior="all">
+				<item android:id="@+id/menu_options_uvmap" android:title="@string/uvmap" />
+			</group>
+		</menu>
+	</item>
+	<item
+		android:id="@+id/menu_info"
+		android:showAsAction="ifRoom"
+		android:title="@string/info"
+		android:checkable="true"
+	/>
+</menu><!-- From: file:/home/gaujei/Project/Depth2Laser/src/main/res/menu/main.xml -->

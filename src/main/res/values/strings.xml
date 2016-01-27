@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DepthImage2Laser - Asus® Robot™ Sample</string>
+    <string name="main_view">Main view</string>
+    <string name="info">Info</string>
+    <string name="uvmap">Display UVMap</string>
+    <string name="intro_message">
+        <![CDATA[
+        
+            
+            This sample demonstrates the use of the android.hardware.camera2 and
+            com.intel.camera2.extensions.depthcamera API to stream color and
+            depth data from a Intel® RealSense™ 3D camera, process it using
+            RenderScript and/or C++, and display it to the screen.
+            
+        
+        ]]>
+    </string>
+</resources>
